@@ -23,8 +23,12 @@ img{
 
 .top-header .name {
 	font-size: 26px;
+	
 }
-
+.name span{
+	font-size: 14px;
+	
+}
 .nav ul {
 	display: flex;
 	list-style-type: none;
@@ -43,6 +47,7 @@ img{
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 .carousel-item img {
 	width:100%;
@@ -120,7 +125,7 @@ margin-right:50px;
 	justify-content: center;
 }
  .nav-item .nav-link.active-tag{
-	color: #fff;
+	color: black;
 	background-color: #BEB45A;
 	border-radius:0 ;
 	cursor:pointer;
@@ -176,8 +181,12 @@ margin-right:50px;
 	font-size: 22px;
 }
 .img-site{
-	width: auto;
-	height: auto;
+	width: 385px;
+	height: 383px;
+}
+.picture.right .img-site{
+	width: 358px;
+	height: 357px;
 }
 #services {
 	margin: auto;
@@ -266,6 +275,21 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+.nous-contacter{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	margin-top: 10px;
+	font-size: 13px;
+}
+.nous-contacter h2{
+	font-size: 15px;
+	justify-content: center;
+}
+.nous-contacter ul{
+	padding: 0px;
+	list-style-type: none;
 }
 
 @media all and (max-width: 1180px) {
