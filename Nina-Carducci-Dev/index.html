@@ -5,8 +5,12 @@
 	<meta name="description" content="Photographe professionnelle à Bordeaux, je vous propose mes services pour saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.">
 	<meta property="og:title" content="Nina Carducci - Photographe">
 	<meta property="og:image" content="./assets/images/nina.webp">
+	<meta property="og:url" content="https://boheno.github.io/Projet-4/Nina-Carducci-Dev/" />
+	<meta property="og:description" content="Photographe professionnelle à Bordeaux, je vous propose mes services pour saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique." />
 	<meta name="twitter:title" content="Nina Carducci - Photographe" />
 	<meta name="twitter:image" content="./assets/images/nina.webp" />
+	<meta name="twitter:description" content="Photographe professionnelle à Bordeaux, je vous propose mes services pour saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique." />
+	<meta name="twitter:url" content="https://boheno.github.io/Projet-4/Nina-Carducci-Dev/" />
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,26 +22,51 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "ProfessionalService",
+			"name": "Nina Carducci",
+			"image": "https://raw.githubusercontent.com/Boheno/Projet-4/refs/heads/main/Nina-Carducci-Dev/assets/images/nina.webp",
+			"url": "https://boheno.github.io/Projet-4/Nina-Carducci-Dev/",
+			"telephone": "+33556677889",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"addressRegion": "Nouvelle-Aquitaine",
+				"postalCode": "33200",
+				"addressCountry": "Fr"
+			},
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": 44.8465743,
+				"longitude": -0.6065366999999999
+			},
+			"openingHoursSpecification": [
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday"
+					],
+					"opens": "10:00",
+					"closes": "19:00"
+				}
+			],
+			"priceRange": "50€ 350€"
+		}
+	</script>
 	<title>Nina Carducci - photographe à Bordeaux</title>
 </head>
 <body>
 <header>
-<div class="top-header" itemscope itemtype="https://schema.org/Person">
-	<h1 itemprop="name" class="name">Nina Carducci <br><span itemprop="jobTitle">Photographe à Bordeaux</span> </h1>
-	<div class="nav" itemscope itemtype="https://schema.org/SiteNavigationElement">
-        <ul>
-            <li><a href="#about" itemprop="url"><span itemprop="name">À propos</span></a></li>
-            <li><a href="#gallery" itemprop="url"><span itemprop="name">Galerie</span></a></li>
-            <li><a href="#services" itemprop="url"><span itemprop="name">Service</span></a></li>
-            <li><a href="#contact" itemprop="url"><span itemprop="name">Contact</span></a></li>
-            <li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank" itemprop="url">
-                <img src="assets/images/instagram.png" alt="logo instagram">
-                <span itemprop="name">Instagram</span>
-            </a></li>
-        </ul>
-    </div>
-	
-	<!-- <div class="nav">   
+<div class="top-header">
+	<h1 class="name">Nina Carducci <br><span>Photographe à Bordeaux</span> </h1>
+	<div class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
@@ -45,7 +74,7 @@
 			<li><a href="#contact">Contact</a></li>
 			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="logo instagram"></a></li>
 		</ul>
-	</div> -->
+	</div>
 </div>
 </header>
 <div id="header">
@@ -176,53 +205,12 @@
 		</div>
 	</div>
 </div>
-<footer>
-    <div>
-        <div class="nous-contacter">
-            <div class="footer-column">
-                <h2><i class="fa-regular fa-calendar"></i> Horaires</h2>
-                <div itemscope itemtype="https://schema.org/OpeningHoursSpecification">
-                    <time itemprop="opens" datetime="10:00">10h</time> - 
-                    <time itemprop="closes" datetime="19:00">19h</time>
-                    <ul>
-                        <li>- Lundi: <span itemprop="dayOfWeek" content="http://schema.org/Monday">10h - 19h</span></li>
-                        <li>- Mardi: <span itemprop="dayOfWeek" content="http://schema.org/Tuesday">10h - 19h</span></li>
-                        <li>- Mercredi: <span itemprop="dayOfWeek" content="http://schema.org/Wednesday">10h - 19h</span></li>
-                        <li>- Jeudi: <span itemprop="dayOfWeek" content="http://schema.org/Thursday">10h - 19h</span></li>
-                        <li>- Vendredi: <span itemprop="dayOfWeek" content="http://schema.org/Friday">10h - 19h</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-column">
-                <h2><i class="fa-solid fa-location-dot"></i> Coordonnées</h2>
-                <ul>
-                    <!-- Adresse -->
-                    <li itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-                        <i class="fa-solid fa-map-location-dot"></i> 
-                        <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>, 
-                        <span itemprop="postalCode">33200</span> 
-                        <span itemprop="addressLocality">Bordeaux</span>
-                    </li>
-                    <!-- Téléphone -->
-                    <li itemprop="telephone" itemscope itemtype="https://schema.org/ContactPoint">
-                        <i class="fa-solid fa-phone"></i> 
-                        <span itemprop="telephone">05 56 67 78 89</span>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2828.771917840012!2d-0.6091167886531531!3d44.84657807431505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54d803d3494ff1%3A0x775d19897dd6276f!2s68%20Av.%20Alsace%20Lorraine%2C%2033200%20Bordeaux!5e0!3m2!1sfr!2sfr!4v1733653686717!5m2!1sfr!2sfr" width="400" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Carte Google Maps"></iframe>
-            </div>
-        </div>
-    </div>
-</footer>
 
-	<!-- <footer>
+	<footer>
 		<div>
 			<div class="nous-contacter">
 				<div class="footer-column">
 					<h2><i class="fa-regular fa-calendar"></i> Horaires</h2>
-					<time itemprop="openingHours" datetime="Mo - fri 10:00-19:00">
 					<ul>
 						<li>- Lundi: 10h - 19h</li>
 						<li>- Mardi: 10h - 19h</li>
@@ -235,8 +223,8 @@
 			<div class="footer-column">
 				<h2><i class="fa-solid fa-location-dot"></i> Coordonnées</h2>
 				<ul>
-					<li itemprop="address"><i class="fa-solid fa-map-location-dot"></i> - 68 avenue Alsace-Lorraine, 33200 Bordeaux</li>
-					<li itemprop="telephone"><i class="fa-solid fa-phone"></i> - 05 56 67 78 89</li>
+					<li><i class="fa-solid fa-map-location-dot"></i> - 68 avenue Alsace-Lorraine, 33200 Bordeaux</li>
+					<li><i class="fa-solid fa-phone"></i> - 05 56 67 78 89</li>
 				</ul>
 			</div>
 			<div class="footer-column">
@@ -245,6 +233,6 @@
 		</div>
 	</div>
 
-	</footer> -->
+	</footer>
 </body>
 </html>
